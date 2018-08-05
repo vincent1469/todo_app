@@ -22,6 +22,12 @@ body {
     font-weight: bold;
     color: #d6c372;
     background-color: black;
+    width: 200px;
+    height: 75px;
+    font-size: 30px;
+}
+#add-new-todo-button:hover {
+    cursor:pointer;
 }
 a {
     color: #bec7c7;
@@ -33,4 +39,14 @@ li {
 h1 {
     color: #d6c372;
     font-weight: bold;
+}
+#add-todo {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+#top-right {
+    position: absolute;
+    top: 0;
+    right: 0;
 }
